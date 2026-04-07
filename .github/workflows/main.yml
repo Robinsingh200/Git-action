@@ -1,0 +1,10 @@
+name: YML_FILE
+
+on: push
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Robin
+        run: echo "hello world"
